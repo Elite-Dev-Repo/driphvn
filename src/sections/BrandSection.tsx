@@ -4,7 +4,7 @@ import SectionWrapper from "../components/SectionWrapper";
 import img8 from "../assets/img8.jpg";
 
 const stats = [
-  { val: "2021", label: "Founded" },
+  { val: "2026", label: "Founded" },
   { val: "500+", label: "Pieces Sold" },
   { val: "12", label: "Drops / Year" },
 ];
@@ -93,7 +93,7 @@ export default function BrandSection() {
                 It's a standard of living."
               </p>
               <p className="font-mono-custom text-[9px] tracking-widest3 text-white/70 uppercase mt-4">
-                — DRIPHVN Founders
+                — DRIPHVN Founder
               </p>
             </div>
 

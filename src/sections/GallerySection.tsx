@@ -105,7 +105,7 @@ export default function GallerySection() {
             href="https://www.instagram.com/driphvn_"
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-3 font-mono-custom text-[10px] tracking-widest2 uppercase border border-black/15 text-black/40 px-8 py-4 hover:border-white hover:text-white transition-all duration-300"
+            className="group inline-flex items-center gap-3 font-mono-custom text-[10px] tracking-widest2 uppercase border border-white/15 text-white/90 px-8 py-4 hover:border-white hover:text-white transition-all duration-300"
           >
             Follow on Instagram
             <ArrowUpRight

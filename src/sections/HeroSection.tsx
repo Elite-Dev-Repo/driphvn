@@ -52,7 +52,7 @@ export default function HeroSection() {
         className="absolute top-24 right-8 md:right-12 hidden md:flex flex-col items-end gap-1"
       >
         <span className="font-mono-custom text-[9px] tracking-widest3 text-offwhite/25 uppercase">
-          SS — 2025
+          - 2026
         </span>
         <span className="font-mono-custom text-[9px] tracking-widest3 text-white/50 uppercase">
           Limited Drop

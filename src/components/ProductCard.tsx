@@ -43,7 +43,7 @@ export default function ProductCard({
 
         {/* View details - hover reveal */}
         <div className="absolute bottom-0 left-0 right-0 px-5 py-5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out">
-          <div className="flex items-center justify-between bg-offwhite text-black px-4 py-3">
+          <div className="flex items-center justify-between bg-white text-black px-4 py-3">
             <span className="font-mono-custom text-[10px] tracking-widest2 uppercase">
               View Piece
             </span>
@@ -60,18 +60,6 @@ export default function ProductCard({
       </div>
 
       {/* Info */}
-      <div className="pt-4 pb-2">
-        <div className="flex items-start justify-between gap-3">
-          <div>
-            <h3 className="font-body text-sm font-medium text-black leading-tight group-hover:text-[#222] transition-colors duration-300">
-              {name}
-            </h3>
-          </div>
-          <p className="font-mono-custom text-xs text-black flex-shrink-0">
-            {price}
-          </p>
-        </div>
-      </div>
 
       {/* Bottom line - white on hover */}
       <div className="h-px bg-black/50 group-hover:bg-black transition-colors duration-500" />

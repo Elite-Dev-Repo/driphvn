@@ -33,8 +33,7 @@ export default function LookbookSection() {
         {/* Header */}
         <div className="mb-16">
           <p className="font-mono-custom text-[10px] tracking-widest3 text-red-500 uppercase mb-4 flex items-center gap-3">
-            <span className="w-6 h-px bg-white/60" />
-            SS 2025
+            <span className="w-6 h-px bg-white/60" />- 2026
           </p>
           <h2 className="font-display text-[clamp(3.5rem,9vw,7rem)] text-offwhite leading-none tracking-widest">
             THE

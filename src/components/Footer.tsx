@@ -121,12 +121,14 @@ export default function Footer() {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="your@email.com"
+                  placeholder="coming soon..."
+                  disabled
                   required
                   className="flex-1 bg-white/[0.04] border border-white/[0.1] px-4 py-3.5 font-mono-custom text-[11px] text-offwhite placeholder-offwhite/20 focus:outline-none focus:border-white/40 transition-colors min-w-0"
                 />
                 <button
                   type="submit"
+                  disabled={true}
                   className="w-12 bg-white flex items-center justify-center text-black hover:bg-white-light transition-colors duration-300 flex-shrink-0"
                 >
                   <ArrowRight size={14} strokeWidth={2} />
