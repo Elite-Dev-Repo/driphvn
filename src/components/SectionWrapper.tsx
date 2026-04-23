@@ -7,7 +7,11 @@ interface Props {
   id?: string;
 }
 
-export default function SectionWrapper({ children, className = "", id }: Props) {
+export default function SectionWrapper({
+  children,
+  className = "",
+  id,
+}: Props) {
   return (
     <motion.section
       id={id}
