@@ -39,11 +39,11 @@ export default function ProductCard({
         />
 
         {/* Dark overlay on hover */}
-        <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/30 transition-all duration-600" />
+        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-600" />
 
         {/* View details - hover reveal */}
         <div className="absolute bottom-0 left-0 right-0 px-5 py-5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out">
-          <div className="flex items-center justify-between bg-offwhite text-charcoal px-4 py-3">
+          <div className="flex items-center justify-between bg-offwhite text-black px-4 py-3">
             <span className="font-mono-custom text-[10px] tracking-widest2 uppercase">
               View Piece
             </span>

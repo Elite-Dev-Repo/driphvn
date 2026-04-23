@@ -37,20 +37,20 @@ const images = [
 
 export default function GallerySection() {
   return (
-    <SectionWrapper id="gallery" className="bg-charcoal py-28 md:py-36">
+    <SectionWrapper id="gallery" className="bg-black py-28 md:py-36">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
-            <p className="font-mono-custom text-[10px] tracking-widest3 text-white uppercase mb-4 flex items-center gap-3">
-              <span className="w-6 h-px bg-white/60" />
+            <p className="font-mono-custom text-[10px] tracking-widest3 text-black uppercase mb-4 flex items-center gap-3">
+              <span className="w-6 h-px bg-black/60" />
               Visual
             </p>
-            <h2 className="font-display text-[clamp(3rem,7vw,5.5rem)] text-offwhite leading-none tracking-widest">
+            <h2 className="font-display text-[clamp(3rem,7vw,5.5rem)] text-black leading-none tracking-widest">
               GALLERY
             </h2>
           </div>
-          <p className="font-body text-offwhite/30 text-sm max-w-xs leading-relaxed">
+          <p className="font-body text-black/30 text-sm max-w-xs leading-relaxed">
             Editorial images from our latest shoots. Fashion that speaks before
             you do.
           </p>
@@ -79,18 +79,18 @@ export default function GallerySection() {
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               />
               {/* Hover overlay */}
-              <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/45 transition-all duration-500 flex items-center justify-center">
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/45 transition-all duration-500 flex items-center justify-center">
                 <motion.div
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileHover={{ opacity: 1, scale: 1 }}
-                  className="opacity-0 group-hover:opacity-100 transition-all duration-400 border border-offwhite/60 px-5 py-3 flex items-center gap-2"
+                  className="opacity-0 group-hover:opacity-100 transition-all duration-400 border border-black/60 px-5 py-3 flex items-center gap-2"
                 >
-                  <span className="font-mono-custom text-[9px] tracking-widest2 text-offwhite uppercase">
+                  <span className="font-mono-custom text-[9px] tracking-widest2 text-black uppercase">
                     View
                   </span>
                   <ArrowUpRight
                     size={11}
-                    className="text-offwhite"
+                    className="text-black"
                     strokeWidth={1.5}
                   />
                 </motion.div>
@@ -105,7 +105,7 @@ export default function GallerySection() {
             href="https://www.instagram.com/driphvn_"
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-3 font-mono-custom text-[10px] tracking-widest2 uppercase border border-offwhite/15 text-offwhite/40 px-8 py-4 hover:border-white hover:text-white transition-all duration-300"
+            className="group inline-flex items-center gap-3 font-mono-custom text-[10px] tracking-widest2 uppercase border border-black/15 text-black/40 px-8 py-4 hover:border-white hover:text-white transition-all duration-300"
           >
             Follow on Instagram
             <ArrowUpRight

@@ -58,7 +58,7 @@ export default function LookbookSection() {
               alt={looks[0].title}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/10 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
             <div className="absolute bottom-8 left-8">
               <p className="font-mono-custom text-[9px] tracking-widest3 text-white uppercase mb-2">
                 {looks[0].label}
@@ -84,7 +84,7 @@ export default function LookbookSection() {
                 alt={looks[1].title}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-charcoal/75 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent" />
               <div className="absolute bottom-6 left-6">
                 <p className="font-mono-custom text-[9px] tracking-widest3 text-white uppercase mb-1">
                   {looks[1].label}
@@ -136,7 +136,7 @@ export default function LookbookSection() {
                 alt={looks[2].title}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-charcoal/75 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent" />
               <div className="absolute bottom-6 left-6">
                 <p className="font-mono-custom text-[9px] tracking-widest3 text-white uppercase mb-1">
                   {looks[2].label}

@@ -15,7 +15,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#080808] border-t border-white/[0.06]">
+    <footer className="bg-[#111] border-t border-white/[0.06]">
       <div className="max-w-7xl mx-auto px-6 md:px-12 pt-20 pb-10 md:pt-28 md:pb-12">
         {/* Top grid */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-14 md:gap-10 pb-16 border-b border-white/[0.06]">
@@ -127,7 +127,7 @@ export default function Footer() {
                 />
                 <button
                   type="submit"
-                  className="w-12 bg-white flex items-center justify-center text-charcoal hover:bg-white-light transition-colors duration-300 flex-shrink-0"
+                  className="w-12 bg-white flex items-center justify-center text-black hover:bg-white-light transition-colors duration-300 flex-shrink-0"
                 >
                   <ArrowRight size={14} strokeWidth={2} />
                 </button>

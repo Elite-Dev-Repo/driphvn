@@ -23,7 +23,7 @@ export default function FeaturedSection() {
           </div>
           <a
             href="#"
-            className="group self-start md:self-end inline-flex items-center gap-2 font-mono-custom text-[10px] tracking-widest2 uppercase text-offblack/35 hover:text-black transition-colors duration-300 border-b border-offblack/15 hover:border-black pb-1"
+            className="group self-start md:self-end inline-flex items-center gap-2 font-mono-custom text-[10px] tracking-widest2 uppercase text-black/35 hover:text-black transition-colors duration-300 border-b border-black/15 hover:border-black pb-1"
           >
             View Full Collection
             <ArrowRight
