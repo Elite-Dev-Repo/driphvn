@@ -3,7 +3,6 @@ import { ArrowUpRight } from "lucide-react";
 
 interface Props {
   name: string;
-  price: string;
   image: string;
   tag?: string | null;
   index?: number;
@@ -11,7 +10,7 @@ interface Props {
 
 export default function ProductCard({
   name,
-  price,
+
   image,
   tag,
   index = 0,
