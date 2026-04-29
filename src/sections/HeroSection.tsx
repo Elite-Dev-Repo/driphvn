@@ -54,9 +54,16 @@ export default function HeroSection() {
         <span className="font-mono-custom text-[9px] tracking-widest3 text-offwhite/25 uppercase">
           - 2026
         </span>
-        <span className="font-mono-custom text-[9px] tracking-widest3 text-white/50 uppercase">
-          Limited Drop
-        </span>
+        {Array(1)
+          .fill(null)
+          .map((i) => (
+            <span
+              key={i}
+              className="font-mono-custom text-[9px] tracking-widest3 text-white/50 uppercase"
+            >
+              Limited Drop
+            </span>
+          ))}
       </motion.div>
 
       {/* Main content */}
